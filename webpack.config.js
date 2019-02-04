@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
-
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 module.exports = {
   entry: './src/app.js',
   output: {
@@ -26,6 +26,9 @@ module.exports = {
   },
   plugins: [
     new Dotenv(),
+    new CopyWebpackPlugin([
+      {from: 'src/images', to: 'images'}
+    ]),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
