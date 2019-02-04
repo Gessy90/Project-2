@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.map {
+  height: 500px;
+  width: 500px
+}
+
+nav .links{
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+  transition: background 0.9s ease;
+
+  &:hover {
+    color: white;
+    background: rgba(255,255,255, 0.5);
+  }
+}
+
+.links{
+  color: black;
+  text-decoration: none;
+}
+
+div.hero-body{
+  background-image: url("/images/codeimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+    button{
+      margin: 120px 10px 0 0;
+      transition: box-shadow 0.3s;
+      &:hover{
+        box-shadow:0 8px 6px -6px #FFFFFF, 0 8px 6px 2px #8D8D8D;
+
+      }
+  }
+}
+
+div.field.has-addons{
+  margin-bottom: 45px;
+}
+
+div.card{
+  text-align: center;
+  transition: border 2s ease;
+  transition: box-shadow 0.9s ease;
+  border: 1px solid rgb(0, 196, 166);
+  box-shadow: 0 8px 6px -6px rgb(0, 196, 166), 0 8px 6px -6px rgb(0, 196, 166);
+
+  &:hover {
+    box-shadow: 0 8px 6px -6px #339AF0, 0 8px 6px -6px #339AF0;
+  }
+
+  .card-header-title {
+    color: white;
+    background: rgb(0, 196, 166);
+    justify-content: center;
+  }
+  #card-image {
+      height: 100px;
+      width: 100%;
+      margin: 10px auto;
+  }
+}
+
+form {
+  margin: 20px auto;
+  .input {
+    width: 30%
+  }
+}
+
+
+.Bushfield {
+  background-image: url("/images/codeimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MakersAcademy {
+  background-image: url("https://lexgocode.files.wordpress.com/2016/05/img.png?w=1000");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.Decoded {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsrB9IaVAAgDWImVK_Ym9pwDDSnl-5m2qqt5vjS6W_TUEskET5");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.Mill.Hill.County.High.School {
+  background-image: url("https://files.slack.com/files-pri/T0351JZQ0-FFNRH6NDA/screenshot_2019-01-25_at_09.46.48.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.General.Assembly{
+  background-image: url("https://www.mitinclusiveinnovation.com/wp-content/uploads/2018/02/logo-general-assembly.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.St{
+ background-image: url("https://www.thecreativeagency.marketing/wp-content/uploads/2016/08/stjohns.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.Ilford.County{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/f/fd/Ilford_County_High_School_%28logo%29.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.Brookfield{
+  background-image: url("http://www.brookfield.hereford.sch.uk/wp-content/uploads/2018/02/BrookfieldFavi.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.custom-marker {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.custom-marker:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #FF7F7F;
+  z-index: -1;
+  border-radius: 50% 50% 0 50%;
+  transform: rotate(45deg);
+}
