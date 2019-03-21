@@ -2,7 +2,7 @@
 # General Assembly Project 2 : React 2 days Hackathon
 
 ### Timeframe
-2 days
+  2 days
 
 ## Technologies used
 * JavaScript (ES6) / HTML5 / CSS
@@ -36,6 +36,7 @@ One thing that I've learned by making this website is that next time we need to 
 Using Bulma made the styling very easy even if we didn't have enough time to complete everything properly. 
 One great feature is that you can filter down your search by location.
 ![Search By City](https://user-images.githubusercontent.com/42389173/54771309-e1952300-4bfc-11e9-8373-80a779ede4f9.png)
+
 ![Search Form](https://user-images.githubusercontent.com/42389173/54771655-a3e4ca00-4bfd-11e9-908b-64b019c53478.png)
 
 I'm also very proud that we managed to filter all the schools so that we would be able to get a list of coding schools in UK only.
