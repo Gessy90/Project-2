@@ -22,8 +22,15 @@ A live version of this site can be found on Heroku: https://reactproapi.herokuap
 This is a website where students can find all coding schools in the UK. When selected the relevant school you will be able to see a Languages Taught, Description, Contact, Address and you can visit their website by clicking on the Go To Website button.
 
 ## Process
-We started building the website by installing yarn, package.json, webpack.config.js and babel. 
-After that we moved onto creating different components like ......{>>>>>}}}}}} MISSING PART!!!!
+The starting point in this project was to find an API that we could start using straight away. Since it was only a two day project, we had no time to be waiting around for verification.
+
+Once we found this on code.org, we started to test it out on Insomnia to see how the response data was structured and what bits of information we could use in our site. Once we had a good idea of what the response data looked like, we drew up some wireframes so we could visualise how this data would be displayed on the page.
+
+The next day we started to work on the code. The first thing we did was set up to webpack and index.js file so we could test the file was up and running correctly. We then started to build out the React part of the app which include a mixture of functional and classical components.
+
+Using componentDidMount, we made an Axios request to the code.org API and set the response data on our state. We did this in our SchoolsIndex component and passed the data through to our SchoolCard component. To enable a user to search for a specific school, we incorporated the search into a second axios request which would then give us only coding schools in UK.
+
+The SchoolsShow component made a fresh axios request incorporating the props passed to it. This enabled us to display specific information about the school and pass that infomation into a map component, which would be displaed on this page. The map component was made using Mapbox. We also added two buttons one that takes you to the schol's website and the otherone which will take you back to the SchoolsIndex.
 
 ## Challenges
 The first big challenge was when we had to filter the data by countries since in the API there was a list of over 5000 schools in the world and we only wanted the ones in the UK. 
