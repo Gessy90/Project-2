@@ -40,6 +40,7 @@ Another problem was that in the API there are no images/logos of the schools so 
 One thing that I've learned by making this website is that next time we need to spend more time in searching for a good API that will give us more information instead of us adding it manually also becase we had only two days to build it.
 
 ### Wins
+It was great seeing how much can be achieved in only a day and a half of coding and it was also the first time we had used React in an independent project.
 Using Bulma made the styling very easy even if we didn't have enough time to complete everything properly. 
 One great feature is that you can filter down your search by location.
 ![Search By City](https://user-images.githubusercontent.com/42389173/54771309-e1952300-4bfc-11e9-8373-80a779ede4f9.png)
