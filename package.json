@@ -32,7 +32,7 @@
     "copy-webpack-plugin": "^4.6.0",
     "dotenv": "^6.2.0",
     "dotenv-webpack": "^1.7.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "mapbox-gl": "^0.52.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
